@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectDevices xmlns:m="urn:mtconnect.org:MTConnectDevices:1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mtconnect.org:MTConnectDevices:1.1" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:1.1 http://www.mtconnect.org/schemas/MTConnectDevices_1.1.xsd">
+	<Header creationTime="2019-10-05T18:12:40+00:00" sender="localhost" instanceId="1267728234" bufferSize="131072" version="1.1"/>
+	<Devices>
+		<Device id="dev" iso841Class="6" name="testadp" sampleInterval="10" uuid="000">
+			<Description manufacturer="Chris Grass Labs"/>
+			<Components>
+				<Controller id="cg1" name="controller">
+					<DataItems>
+    						<DataItem category="EVENT" id="message" type="message"/>
+					</DataItems>
+				</Controller>
+			</Components>
+		</Device>
+	</Devices>
+</MTConnectDevices>
